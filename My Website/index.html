@@ -10,8 +10,9 @@
 </head>
 <body>
 
+
     <div id="navbar">
-        <a href="#top">Home</a>
+        <a href="#home">Home</a>
         <a href="#info">Personal Info</a>
         <a href="#books">Books</a>
         <a href="#haiku">Haiku</a>
@@ -19,12 +20,9 @@
         <a href="#schedule">Schedule</a>
       </div>
 
-    
-    <h1>Colton Robbins</h1>
-    <img src="me.png" alt="me.png">
-    <h2>Personal Info:</h2>
-
-
+    <h1 id="home">Colton Robbins</h1>
+    <img class="image" src="img/MeandChewy.jpg" alt="MeandChewy.jpg">
+    <h2 id="info">Personal Info:</h2>
 
     <ul>
         <li>Major: Computer Science</li>
@@ -32,7 +30,7 @@
         <li>Junior at UVU</li>
         <li>Favorite Ice Cream: Anything Chocolate</li>
     </ul>
-    <h2>My five favorite books</h2>
+    <h2 id="books">My five favorite books</h2>
     <ol>
         <li>In Search of Lost Time, <a href="https://en.wikipedia.org/wiki/Marcel_Proust">Marcel Proust</a></li>
         <li>Ulysses, <a href="https://jamesjoyce.ie/">James Joyce</a></li>
@@ -41,7 +39,7 @@
         <li>The Great Gatsby,<a href="https://en.wikipedia.org/wiki/F._Scott_Fitzgerald">F. Scott Fitzgerald</a></li>
     </ol>
 
-    <h2>My very own Haiku</h2>
+    <h2 id="haiku">My very own Haiku</h2>
     <p>To my wonderful dog and all the love he has given me</p>
     <div class="myHaiku" >
         <p >My dog is so cute </p>
@@ -52,7 +50,7 @@
 
 
     <div class="personalInterests">
-        <h2>Personal Interests</h2>
+        <h2 id="interests">Personal Interests</h2>
         <p>
         I love music. I have always loved listening to music and escaping in a song. My favorite bands are always changing.
         I've been playing guitar off and on since I was 13. I may sound like I just picked up a guitar a few months ago, but I love it none the less.
@@ -69,7 +67,7 @@
     </div>
 
 
-    <h2>Class Schedule</h2>
+    <h2 id="schedule">Class Schedule</h2>
     <table border="1px" cellspacing ="3">
         <thead>
             <tr>
@@ -83,12 +81,15 @@
         </thead>
         <tr>
             <td>5:30 am</td>
-            <td rowspan="11" align="center">Work</td>
-            <td rowspan="11" align="center">Work</td>
-            <td rowspan="11" align="center">Work</td>
-            <td rowspan="11" align="center">Work</td>
-            <td rowspan="11" align="center">Work</td>
+            <td rowspan="12" align="center">Work</td>
+            <td rowspan="12" align="center">Work</td>
+            <td rowspan="12" align="center">Work</td>
+            <td rowspan="12" align="center">Work</td>
+            <td rowspan="12" align="center">Work</td>
 
+        </tr>
+        <tr>
+            <td>6:00 am</td>
         </tr>
         <tr>
             <td>6:30 am</td>
@@ -181,31 +182,34 @@
         </tr>
         <tr>
             <td>3:00 pm</td>
-            <td rowspan="3" align="center">Physics</td>
-            <td></td>
-            <td rowspan="3" align="center">Physics</td>
-            <td></td>
-            <td rowspan="3" align="center">Physics</td>
+            <td rowspan="2" align="center">Physics</td>
+            <td rowspan="2" align="center">Physics</td>
+            <td rowspan="2" align="center">Physics</td>
+            <td rowspan="2" align="center">Physics</td>
+            <td rowspan="2" align="center">Physics</td>
         </tr>
         <tr>
             <td>3:30 pm</td>
-            <td></td>
-            <td></td>
+
 
         </tr>
         <tr>
             <td>4:00 pm</td>
             <td rowspan="3" align="center">Computer Ethics</td>
+            <td></td>
             <td rowspan="3" align="center">Computer Ethics</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>4:30 pm</td>
             <td></td>
-            <td rowspan="3" align="center">Web Programming</td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
             <td>5:00 pm</td>
+            <td rowspan="3" align="center">Web Programming</td>
             <td></td>
             <td></td>
         </tr>
@@ -219,6 +223,10 @@
 
 
     </table>
+
+    <div class="footer">
+        <p>Copyright &#169; 2020 &#8212; Colton Robbins</p>
+      </div>
 
 </body>
 </html>
